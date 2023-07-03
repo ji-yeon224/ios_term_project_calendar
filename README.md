@@ -31,7 +31,7 @@
 
 ## 🔎 구현 내용
 
-- navigationBar를 이용하여 ViewControlle와 일정 등록 및 수정 뷰인 AddController를 연결하였다. ViewController에 Bar Button Item을 이용하여 새로 일정 추가 버튼을 만들고, 버튼을 AddViewController와 연결시켰다.
+- navigationBar를 이용하여 ViewController와 일정 등록 및 수정 뷰인 AddController를 연결하였다. ViewController에 Bar Button Item을 이용하여 새로 일정 추가 버튼을 만들고, 버튼을 AddViewController와 연결시켰다.
 - 각 일정들의 데이터를 가지고 있는 Schedule클래스와 각 일정들을 날짜별로 저장하기 위해 ScheduleList클래스에 Schedule 객체 배열을 생성하였다. 날짜마다 생성된 ScheduleList를 한번에 관 리하기 위해 DateList 클래스를 만들었다.
 
 ### 🗓 ViewController(캘린더, tableView)
